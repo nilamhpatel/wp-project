@@ -1,0 +1,59 @@
+.reno-blog-card-container {
+  max-width: 330px;
+  margin: 0 45px 90px;
+  padding: 0;
+
+  a.card {
+    text-decoration: none;
+    transition: all .25s;
+    border: none;
+
+    &:active,
+    &:focus,
+    &:hover {
+      box-shadow: 0px 0px 20px rgba( 0, 0, 0, 0.3 );
+    }
+
+    .featured-image-container {
+      height: 226px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  
+    .default-image-container {
+      height: 226px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: $white;
+    }
+
+    .content-container {
+      background: $white;
+      padding: 20px 20px 25px;
+
+      .category {
+        font-family: $nunito;
+        display: inline-block;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: $grey;
+        margin-bottom: 10px;
+      }
+
+      .title {
+        font-family: $nunito;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 29px;
+        color: $black;
+      }
+    }
+  }
+}

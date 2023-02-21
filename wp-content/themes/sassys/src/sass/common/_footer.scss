@@ -1,0 +1,152 @@
+.reno-footer-container {
+  background: $black;
+  padding: 27px 0 32px;
+
+  .footer-logo {
+    position: relative;
+    margin-top: -95px;
+  }
+
+  .call-to-action-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    @media all and ( min-width: $screen-md ) {
+      margin-top: 0;
+      margin-bottom: 35px;
+    }
+
+    h2.callout-massage {
+      font-family: $poppins;
+      font-weight: 800;
+      font-size: 38px;
+      line-height: 36px;
+      text-transform: uppercase;
+      color: $white;
+      margin: 0 auto 30px;
+      width: 100%;
+      max-width: 437px;
+      @media all and ( min-width: $screen-md ) {
+        font-size: 54px;
+        line-height: 60px;
+      }
+
+      @media all and ( min-width: $screen-xl ) {
+        font-size: 70px;
+        line-height: 79px;
+      }
+    }
+
+    .cta-container {
+      a {
+        position: relative;
+        text-align: right;
+        text-transform: uppercase;
+        color: $white;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 437px;
+    
+        &:active,
+        &:focus,
+        &:hover {
+          opacity: .8;
+        }
+
+        img {
+          width: 439px;
+          height: 247px;
+          object-fit: cover;
+        }
+
+        h3 {
+          position: absolute;
+          z-index: 3;
+          right: 0;
+          bottom: 0;
+          margin: 0;
+          max-width: 400px;
+          padding: 30px 25px;
+          font-family: $poppins;
+          font-weight: 800;
+          font-size: 38px;
+          line-height: 46px;
+          text-shadow: 3px 3px 5px rgba( 16, 16, 16, 0.619126 );
+        }
+      }
+    }
+  }
+
+
+  .nav-container {
+    width: 100%;
+    text-align: center;
+    
+    span {
+      font-family: $nunito;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      color: $grey;
+      margin: 0 0 30px;
+      display: inline-block;
+      @media all and ( min-width: $screen-md ) {
+        margin: 0;
+      }
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      @media all and ( min-width: $screen-md ) {
+        display: inline-block;
+      }
+
+      li {
+        display: inline-block;
+        margin: 0 0 30px;
+        @media all and ( min-width: $screen-md ) {
+          margin: 0 0 0 20px;
+        }
+        
+        &::before {
+          content: "";
+          display: none;
+        }    
+
+        a {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 24px;
+          color: $grey;
+          text-decoration: none;
+
+          &:active,
+          &:focus,
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.reno-home-special-container .reno-contact-page-container .gformright{
+  margin-top: 0;
+  box-shadow :none;
+  
+}
+.reno-home-special-container .reno-contact-page-container .gforminquiries{
+    width: 70%;
+    clear: both;
+    padding: 0 0 0 30px;
+}
+.reno-home-special-container .reno-contact-page-container .gforminquiries .gform_wrapper .gform_footer .gform_button{
+  background: #000000;
+}

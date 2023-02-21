@@ -1,0 +1,527 @@
+.reno-home-page-container {
+  .reno-home-hero-container {
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    position: relative;
+    @media all and ( max-width: $screen-lg ) {
+      height: 600px;
+    }  
+    @media all and ( max-width: $screen-md ) {
+      height: 500px;
+    }    
+    
+    h1 {
+      font-family: $poppins;
+      font-weight: 800;
+      font-size: 44px;
+      line-height: 42px;
+      text-transform: uppercase;
+      color: $white;      
+      text-shadow: 4px 4px 34px rgba( 16, 16, 16, 0.52 );
+      margin: 0;
+      max-width: 800px;
+      position: absolute;
+      bottom: 20px;
+      @media all and ( min-width: $screen-md ) {
+        font-size: 90px;
+        line-height: 80px;
+        padding: 20px 0 176px;
+        position: relative;
+      }
+
+      @media all and ( min-width: $screen-lg ) {
+        font-size: 120px;
+        line-height: 105px;
+      }
+
+      &.homwbannertxt{
+        font-size: 80px;
+        font-weight: 600;
+        line-height: 85px;
+        text-transform: none;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        top: 50%;
+
+        @media all and ( max-width: $screen-md ) {
+          font-size: 40px;
+          line-height: 45px;
+          top: 80%;
+        }
+      }
+    }
+  } 
+
+  .reno-renovator-search-container {
+    position: relative;
+    margin-top: 0;
+    z-index: 3;
+    @media all and ( min-width: $screen-md ) {
+      margin-top: -154px;
+    }
+
+    .container {
+      max-width: none;
+      padding: 0;
+      margin: 0;
+      @media all and ( min-width: $screen-xl) {
+        max-width: 1200px;
+        padding: 0 12px;
+        margin: 0 auto;
+      }
+    }
+
+    .reno-renovator-outer-container {
+      padding: 30px 45px 60px;
+      background: $white;
+      @media all and ( min-width: $screen-md ) {
+        padding: 33px 66px;
+        width: 100%;
+        margin-right: 0;
+      }
+
+      @media all and ( min-width: $screen-xl ) {
+        width: 200%;
+        margin-right: -200px;
+      }
+
+      h2 {
+        font-family: $nunito;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        color: $black;
+        @media all and ( min-width: $screen-md ) {
+          font-size: 35px;
+          line-height: 48px;
+          text-align: left;
+        }        
+      }
+      
+      .search-renovator-form-container {
+        justify-content: flex-start;
+        padding-top: 32px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .reno-home-testimonial-container {
+    position: relative;
+    margin-top: -55px;
+    
+    img {
+      height: 528px;
+      width: 100%;
+      object-fit: cover;
+      @media all and ( min-width: $screen-md ) {
+        height: 887px;
+      }
+    }
+
+    .testimonial-container {
+      padding: 60px 15px 25px;
+      background: rgba( 255, 255, 255, .93 );
+      position: absolute;
+      top: 115px;
+      max-width: 736px;
+      margin-right: 15px;
+      height: 416px;
+      @media all and ( min-width: $screen-md ) {
+        padding: 90px 63px 25px;
+        top: 142px;
+      }
+
+      img.quote-img {
+        left: 15px;
+        top: 20px;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        z-index: 3;
+        @media all and ( min-width: $screen-md ) {
+          width: 43px;
+          height: 43px;
+          left: 36px;
+          top: 36px;
+        }
+      }
+
+      div.quote {
+        height: 175px;
+        overflow-y: auto;
+        margin-bottom: 20px;
+
+        p {
+          font-family: $nunito;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 27px;
+          color: $black;
+          padding-right: 0;
+        }
+      }
+
+      p {
+        font-family: $nunito;
+        padding-right: 110px;
+        font-size: 18px;
+        line-height: 25px;
+        color: $grey;
+
+        &.person {
+          font-weight: 700;
+          margin-bottom: 0;
+        }
+
+        &.location {          
+          font-weight: 400;
+        }
+      }
+
+      .pagination-container {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        span {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: $black;
+          opacity: 0.3;
+        }
+
+        .testimonial-hyphen {
+          height: 1px;
+          width: 49px;
+          background: $black;
+          margin: 0 8px;
+          opacity: .3;
+        }
+      }
+
+      .pagination-control-container {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+        button {
+          border: none;
+          background: transparent;
+          outline: none;
+          margin-left: 25px;
+          padding: 10px;
+
+          &:active,
+          &:focus,
+          &:hover {
+            opacity: .7;
+          }
+          
+          i {
+            color: $black;
+            font-size: 25px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .reno-home-welcome-container{
+    padding: 140px 0 100px 0;
+    text-align: center;
+    @media all and ( max-width: $screen-lg ) {
+      padding-top: 40px;
+    }  
+    @media all and ( max-width: $screen-md ) {
+      padding-top: 10px;
+    }
+
+    .welcometext{
+      padding: 20px 20px;;
+      h2{
+        font-size: 45px;
+        span{
+          color: #ca0808;
+        }
+      }
+     
+    }
+    .welcomeimg01{
+      position: relative;
+      .img1txt{
+        color: #ffffff;
+        bottom: 35px;
+        text-align: center;
+        z-index: 999999;
+        position: absolute;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 35px;
+        span{
+          font-style: italic;
+        }
+      }
+        
+    }
+
+    .welcomeimg02{
+      position: relative;
+      .img2txt{
+        color: #ffffff;
+        top: 40px;
+        text-align: center;
+        z-index: 999999;
+        position: absolute;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 30px;
+        line-height: 35px;
+        span{
+          font-style: italic;
+        }
+      }
+        
+    }
+  }
+
+
+
+  
+  .reno-home-special-container{
+    padding: 140px 0 100px 0;
+    text-align: center;
+
+      @media all and ( max-width: $screen-md ) {
+        padding: 0px 0 40px 0;
+      }
+    .container{
+      // width: 70%;
+      // margin: 0 0;
+
+      .specialdays-img{
+        padding: 0; 
+        background-size: cover;  
+        background-repeat: no-repeat; 
+        background-image: url('images/10.png');
+        @media all and ( max-width: $screen-md ) {
+          display: none;
+        }
+      }
+      .specialdays-menu{
+        background-size: contain; 
+        background-image: url('images/11.png');
+      }
+    }
+    .specialtext{
+      text-align: center;
+      padding: 20px 10px;
+      h2{
+        font-size: 45px;
+        span{
+          color: #ca0808;
+        }
+      } 
+      .specialdates{
+        font-weight: bold;
+      }   
+      .speciallist{
+
+        .specialtxt{
+
+          span{
+            font-weight: bold;
+          }
+          p{
+            font-size: 16px;
+          }
+        }
+      } 
+    }    
+  }
+
+
+
+  .reno-home-news-container {
+    background: $light-grey;
+    padding: 60px 0 20px;
+    @media all and ( min-width: $screen-md ) {
+      padding: 30px 0 60px;
+    }
+
+    h2 {
+      font-size: 38px;
+      line-height: 36px;
+      font-family: $poppins;
+      font-weight: 800;      
+      text-transform: uppercase;
+      max-width: 1020px;
+      margin-bottom: 13px;
+      color: $grey;
+      @media all and ( min-width: $screen-md ) {
+        font-size: 100px;
+        line-height: 105px;
+        margin-bottom: 50px;
+      }
+    }
+
+    .reno-news-row {
+      margin: 0;
+      width: 100%;
+      max-width: 1170px;
+      overflow-x: scroll;
+      display: flex;
+      -ms-overflow-style: none;  /* Internet Explorer 10+ */
+      scrollbar-width: none;  /* Firefox */
+      @media all and ( min-width: $screen-xl ) {
+        margin: 0 -45px 30px;
+        max-width: none;
+        overflow-x: initial;
+      }
+
+      &::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
+      }
+
+      .col {
+        width: 330px;
+        flex: none;
+      }
+    }
+
+    .more-news {
+      font-family: $nunito;
+      font-size: 18px;
+      line-height: 20px;
+      font-weight: 700;
+      display: inline-block;
+      text-decoration: none;
+      color: $dark-grey;
+      @media all and ( min-width: $screen-md ) {
+        font-size: 25px;
+        line-height: 20px;
+      }
+
+      &:active,
+      &:focus,
+      &:hover {
+        color: $green;
+      }
+
+      i {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .reno-home-faq-container {
+    padding-top: 90px; 
+    padding-bottom: 85px;
+
+    .faq-message {
+      font-family: $nunito;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      margin-bottom: 40px;
+      color: $black;
+      @media all and ( min-width: $screen-md ) {
+        font-size: 25px;
+        line-height: 34px;
+      }
+    }
+
+    .faq-heading {
+      font-family: $poppins;
+      font-weight: 800;
+      font-size: 38px;
+      line-height: 36px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      max-width: 1020px;
+      color: $light-grey;
+      @media all and ( min-width: $screen-md ) {
+        font-size: 100px;
+        line-height: 105px;
+        margin-bottom: 56px;
+      }
+    }
+
+    .reno-accordion {
+      border-top: 2px solid $soft-grey;
+      margin-bottom: 50px;
+    
+      .accordion-item {
+        border-bottom: 2px solid $soft-grey;
+
+        .accordion-button {
+          font-family: $nunito;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 22px;
+          color: $black;
+          padding: 25px 0;
+          outline: none;
+          background-color: $white;
+          box-shadow: none;
+          @media all and ( min-width: $screen-md ) {
+            padding: 25px 0;
+            font-size: 25px;
+            line-height: 34px;
+          }
+
+          &::before {
+            font-family: $nunito;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 1;
+            color: $green;
+            margin-right: 10px;
+            content: "-";
+            @media all and ( min-width: $screen-md ) {
+              margin-right: 27px;
+              font-size: 30px;
+            }
+          }
+
+          &::after {
+            display: none;
+            background-image: none;
+          }
+
+          &:active,
+          &:focus,
+          &:hover {
+            color: $green;
+          }
+
+          &.collapsed {
+            &::before {
+              content: "+";
+            }
+          }
+        }
+
+        .accordion-body {
+          font-family: $nunito;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 27px;
+          color: $black;
+          padding: 0 0 25px 42px;
+        }
+      }
+    }
+  }
+}
+
+

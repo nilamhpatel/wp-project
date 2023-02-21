@@ -1,0 +1,454 @@
+/*
+* Style for shortcode input
+*/
+.bafg-shortcode-wraper .cmb-row {
+	padding: 0 !important;
+	margin: 0 !important
+}
+
+.bafg_display_shortcode {
+	margin: 10px 0;
+	width: 100%
+}
+
+/*
+* Style for alert 
+*/
+#bafg_copy {
+	font-size: 15px;
+	color: #fff;
+	width: 200px;
+	height: 50px;
+	background-color: #4CAF50;
+	text-align: center;
+	position: absolute;
+	top: 100px;
+	right: 0;
+	line-height: 50px;
+	border-radius: 5px;
+	transition: 1s;
+	display: none
+}
+
+.cmb2-id-bafg-pro-image1,
+.cmb2-id-bafg-pro-image2,
+.cmb2-id-bafg-pro-image {
+	position: relative;
+	padding: 0 !important
+}
+
+.cmb2-id-bafg-pro-image1::before-,
+.cmb2-id-bafg-pro-image2::before,
+.cmb2-id-bafg-pro-image::before {
+	position: absolute;
+	z-index: 35;
+	width: 240px;
+	left: 0;
+	background: #dddddda8;
+	content: 'Upgrade to pro';
+	height: 43px;
+	text-align: center;
+	color: red;
+	font-size: 18px;
+	cursor: pointer;
+	font-weight: 600;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin: 0 auto;
+	right: 0;
+	top: 50%;
+	margin-top: -22px;
+	border-radius: 5px;
+}
+
+.bafg-tooltip {
+	position: relative;
+	display: inline-block
+}
+
+.bafg-tooltip span {
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin-left: 5px;
+	font-weight: 600;
+	background: #f8f8f8;
+	color: #1313fc;
+	display: block;
+	border-radius: 30px
+}
+
+.bafg-tooltip .bafg-tooltip-info {
+	display: none;
+	position: absolute;
+	z-index: 90;
+	third: 100%;
+	left: 10px;
+	text-align: center;
+	transition: 0.5s;
+	max-width: 160px;
+	min-width: 100px;
+	background: #0d0d0d;
+	height: auto;
+	padding: 10px;
+	border-radius: 4px;
+	color: #fff
+}
+
+.bafg-tooltip:hover .bafg-tooltip-info {
+	display: block;
+}
+
+.bafg-pro-link {
+	color: #ca4a1f;
+	font-weight: bold
+}
+
+/* Style the tab */
+.bafg-tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	border-third: 0;
+	background-color: #0652DD;
+}
+
+/* Style the buttons inside the tab */
+.bafg-tab a {
+	background-color: inherit;
+	float: left;
+	border-right: 1px solid #fff;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+	color: #fff
+}
+
+.bafg-tab a:last-child {
+	border-right: 0
+}
+
+/* Change background color of buttons on hover */
+.bafg-tab a:hover {
+	background-color: #fff;
+	color: #444
+}
+
+/* Create an active/current tablink class */
+.bafg-tab a.active {
+	background-color: #fff;
+	color: #444
+}
+
+/* Style the tab content */
+.bafg-tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+
+.bafg-tabcontent .bafg-option-label {
+	width: 250px
+}
+
+#bafg_before_after_image_thumbnail,
+#bafg_before_image_thumbnail,
+#bafg_after_image_thumbnail,#bafg_third_image_thumbnail,#bafg_second_image_thumbnail,#bafg_first_image_thumbnail {
+	max-width: 120px;
+	display: block;
+	margin-top: 5px;
+}
+
+.bafg-option-table tr {
+	border-bottom: 1px solid #ddd;
+	padding: 20px 0 !important;
+	display: block;
+}
+
+.bafg-option-table tr:last-child {
+	border-bottom: 0;
+}
+
+.bafg-option-label label {
+	font-weight: 600;
+}
+
+/* HIDE RADIO */
+input[name=bafg_image_styles],input[name=bafg_before_after_style] {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* IMAGE STYLES */
+input[name=bafg_image_styles] + label img,input[name=bafg_before_after_style] + label img {
+	cursor: pointer;
+}
+
+/* CHECKED STYLES */
+input[name=bafg_image_styles]:checked + label img,input[name=bafg_before_after_style]:checked + label img {
+	outline: 2px solid #0652DD;
+}
+
+ul.orientation-style li {
+	display: inline-block;
+	margin-left: 15px
+}
+ul.bafg-before-after-style li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.bafg_button {
+	border: 0;
+	padding: 8px 10px;
+	background: #0652DD;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	max-height: 35px;
+	transition: 0.5
+}
+
+.bafg_button:hover {
+	opacity: 0.9
+}
+
+.bafg-option-content input[type=text] {
+	padding: 7px;
+	border-radius: 4px;
+	height: 35px
+}
+
+.bafg-option-content p {
+	margin: 0;
+}
+
+/* Gallery shortcode generator CSS */
+@media (min-width: 783px) {
+	.bafg-wrap {
+		display: flex;
+	}
+	
+	#bafg_gallery_generator,
+	#bafg_filter_gallery_style,
+	#bafg_filter_gallery_generator {
+		height: 100%
+	}
+}
+
+#bafg_gallery_generator,
+#bafg_filter_gallery_style,
+#bafg_filter_gallery_generator {
+	margin-top: 50px;
+	border-radius: 5px;
+	background-color: #fff;
+	padding: 20px;
+	max-width: 350px;
+	position: relative;
+	display: inline-block;
+}
+
+#bafg_filter_gallery_style {
+	width: 350px;
+}
+
+#bafg_gallery_generator,
+#bafg_filter_gallery_generator {
+	margin-right: 30px
+}
+
+#bafg_gallery_generator h2,
+#bafg_filter_gallery_style h2,
+#bafg_filter_gallery_generator h2 {
+	color: #23282d;
+	font-size: 1.3em;
+	margin: 1em 0;
+}
+
+#bafg_gallery_generator input[type=text],
+#bafg_filter_gallery_generator input[type=text],
+#bafg_gallery_generator input[type=number],
+#bafg_filter_gallery_generator input[type=number],
+#bafg_gallery_generator select,
+#bafg_filter_gallery_generator select,
+#bafg_filter_gallery_style input[type=number] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+.bafg_gallery_info,
+.bafg_filter_gallery_info{
+	margin: 5px 0;
+	display: block;
+}
+#bafg_gallery_generator input[type=submit],
+#bafg_filter_gallery_style input[type=submit],
+#bafg_filter_gallery_generator input[type=submit] {
+	width: 100%;
+	background-color: #0652DD;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#bafg_gallery_generator input[type=submit]:hover,
+#bafg_filter_gallery_generator input[type=submit]:hover,
+#bafg_filter_gallery_style input[type=submit]:hover {
+	background-color: #0f60f4;
+}
+
+#bafg_gallery_shortcode_copy_alert,
+#bafg_filter_gallery_shortcode_copy_alert {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(6, 82, 221, 0.78);
+	top: 0;
+	left: 0;
+	border-radius: 5px;
+	text-align: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-size: 21px;
+	font-weight: 600;
+	display: none
+}
+
+.bafg-upgrade-to-pro {
+	position: absolute;
+	top: 0;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.57)
+}
+
+.bafg-upgrade-to-pro a {
+	color: #e61c1c;
+	text-decoration: none
+}
+.img-alt-tag {
+    margin-top: 15px;
+}
+.img-alt-tag span {
+    margin-right: 15px;
+    font-weight: 500;
+}
+.img-alt-tag input {
+    width: 285px;
+}
+/* Style the buttons inside the bafg-tab */
+.bafg-setting-tab a {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+	  color: #fff;
+	  border-right: 1px solid #fff
+  }
+  .bafg-setting-tab a:last-child {
+	  border-right: 0
+  }
+  /* Change background color of buttons on hover */
+  .bafg-setting-tab a:hover {
+	background-color: #fff;
+	  color: #444
+  }
+  .bafg-setting-tab {
+	background: #0652DD;
+	width: 100%;
+	overflow: hidden;
+}
+  /* Create an active/current bafg-tablink class */
+  .bafg-setting-tab a.active {
+	background-color: #fff;
+	  color: #444
+  }
+  
+  /* Style the uacf7-tab content */
+  .bafg-tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+	  background-color: #fff
+}
+img.bafg-watermark-prev {
+    width: 300px;
+}
+#bafg-wm-opacity {
+	width: 262px;
+}
+span.bafg-wm-range-val {
+    display: block;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 16px;
+}
+tr.bafg-watermark-enable li {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+tr.bafg-watermark-enable {
+    vertical-align: top;
+}
+
+/* Review admin notice CSS */
+.themefic_review_notice ul li {
+	display: inline-block;
+}
+
+.themefic_review_notice ul {
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.themefic_review_notice ul li a {
+	text-decoration: none;
+	padding: 7px;
+	color: #00718A;
+	font-weight: 600;
+	transition: 0.4s;
+}
+
+.themefic_review_notice ul li:nth-child(1) a {
+	padding-left: 0 !important;
+}
+
+.themefic_review_notice ul li a span {
+	padding-right: 3px;
+	display: inline-block;
+}
+
+.themefic_review_notice ul li a:hover {
+	color: #218ea6;
+}
+.themefic_review_notice {
+	position: relative;
+}
+.themefic_review_notice .review_notice_dismiss {
+	padding: 2px;
+}

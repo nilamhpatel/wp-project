@@ -1,0 +1,63 @@
+// Import the Gotham font family
+// @import "../fonts/HCo_GothamNarrowSSm_Web/hco_fonts/hco_fonts.css";
+// @import "../fonts/HCo_GothamSSm_Web/hco_fonts/hco_fonts.css";
+
+
+// Font Awesome
+$fa-font-path:	"../fonts";
+@import "assets/fontawesome/fontawesome";
+@import "assets/fontawesome/brands";
+@import "assets/fontawesome/light";
+@import "assets/fontawesome/regular";
+@import "assets/fontawesome/solid";
+
+
+// Add your variables into this file. Also add variables to overwrite Bootstrap variables here
+@import "common/variables";
+
+@import "assets/bootstrap5/bootstrap";                             // <------- Loads Bootstrap4
+@import "assets/understrap/theme/understrap";  // <------- Loads the Understrap defaults. Just a few classes to incorporate BS in WP
+// @import "assets/understrap/theme/woocommerce"; // <------- Loads WooCommerce style fixes. Comment out if you aren't using WooCommerce
+
+// Optional files - If you don´t use the corresponding scripts/fonts comment em out
+// @import "assets/fontawesome/font-awesome";                           // <------- Font Awesome Icon font
+@import "assets/underscores";                            // <------- Underscores media styles
+
+// Any additional imported files //
+// @import "theme/child_theme";                             // <------- Add your styles into this file
+@import "assets/understrap/theme/colors";           // <-------- This creates the necessary bootstrap color classes.
+@import "assets/understrap/theme/blocks";           // <-------- This adds Bootstrap styles to blocks.
+// @import "assets/understrap/theme/contact-form7";    // <-------- Contact Form 7 - Bootstrap 4 support
+
+
+// Common
+@import "common/global";
+@import "common/header";
+@import "common/footer";
+
+
+// Components
+@import "components/advertisement";
+@import "components/blog-card";
+@import "components/builder-card";
+@import "components/page-header";
+@import "components/search-reno";
+@import "components/social-links";
+@import "components/social-sharing";
+
+
+// Plugins
+@import "plugins/before-and-after";
+@import "plugins/image-gallery";
+
+
+// Templates
+@import "templates/blog-page";
+@import "templates/blog-post";
+@import "templates/our-menus-page";
+@import "templates/design-inspiration-page";
+@import "templates/design-inspiration-tax";
+@import "templates/find-renovator-page";
+@import "templates/front-page";
+@import "templates/project-post";
+@import "templates/contact-page";

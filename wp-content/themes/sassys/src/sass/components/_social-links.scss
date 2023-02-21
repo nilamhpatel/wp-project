@@ -1,0 +1,75 @@
+.reno-social-links-container {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  @media all and ( min-width: $screen-md ) {
+    margin-bottom: 55px;
+  }
+
+  a {
+    margin: 0 15px ;
+    font-size: 20px;
+    line-height: 20px;
+    @media all and ( min-width: $screen-md ) {
+      font-size: 30px;
+      line-height: 30px;
+      margin: 0 30px 55px;
+    }
+  }
+
+  .facebook-brand {
+    color: $grey;
+
+    &:hover,
+    &:focus,
+    &:active {
+      opacity: 0.6;
+      color: $grey;
+    }
+  }
+
+  .twitter-brand {
+    color: $grey;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $grey;
+      opacity: 0.6;
+    }
+  }
+
+  .linkedin-brand {
+    color: $grey;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $grey;
+      opacity: 0.6;
+    }
+  }
+
+  .youtube-brand {
+    color: $grey;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $grey;
+      opacity: 0.6;
+    }
+  }
+
+  .instagram-brand {
+    color: $grey;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $grey;
+      opacity: 0.6;
+    }
+  }
+}

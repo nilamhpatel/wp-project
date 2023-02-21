@@ -1,0 +1,116 @@
+.search-renovator-form-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 40px;
+  @media all and ( min-width: $screen-md ) {
+    flex-direction: row;
+  }
+
+  .column-container {
+    max-width: 420px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    @media all and ( min-width: $screen-md ) {
+      margin-right: 30px;
+    }
+
+    @media all and ( min-width: $screen-xl ) {
+      flex-direction: row;
+      margin-right: 0;
+      max-width: 478px;
+    }
+  }
+
+  .input-field-container {
+    position: relative;
+    margin-bottom: 20px;
+    max-width: none;
+    width: 100%;
+    z-index: 0;
+    @media all and ( min-width: $screen-md ) {
+      margin-right: 25px;
+      margin-bottom: 0;
+    }
+
+    label {
+      display: none;
+    }
+
+    input {
+      height: 55px;
+      padding: 14px 25px 14px 8px;
+      border: none;
+      border-bottom: 1px solid $grey;
+      font-family: $nunito;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      color: $dark-grey;
+      width: 100%;
+      @media all and ( min-width: $screen-md ) {
+        font-size: 20px;
+        line-height: 27px;
+      }
+    }
+  }
+
+  .search-field-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+    max-width: none;
+    width: 100%;
+    @media all and ( min-width: $screen-md ) {
+      margin-right: 30px;
+      margin-bottom: 0;
+    }
+
+    select {
+      height: 55px;
+      padding: 14px 25px 14px 4px;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid $grey;
+      width: 100%;
+      font-size: 16px;
+      line-height: 22px;
+      font-family: $nunito;
+      font-weight: 600;
+      color: $dark-grey;
+      @media all and ( min-width: $screen-md ) {
+        font-size: 20px;
+        line-height: 27px;
+      }            
+    }
+  }
+
+  input[ type=submit ] {
+    max-width: 117px;
+    padding: 12px 26px;
+    height: 47px;
+    font-family: $poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    background: $green;
+    border-radius: 25px;
+    border: none;
+    margin-top: 40px;
+    @media all and ( min-width: $screen-md ) {
+      margin-top: 0;
+    }
+
+    &:active,
+    &:focus,
+    &:hover {
+      background: $light-green;
+    }
+  }
+}

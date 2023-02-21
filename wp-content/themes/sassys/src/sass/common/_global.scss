@@ -1,0 +1,86 @@
+.container {
+  @media all and ( min-width: $screen-xxl ) {
+    max-width: 1200px;
+  }
+}
+
+.header-logo-container {
+  padding-top: 0;
+  @media all and ( min-width: $screen-md ) {
+    padding-top: 20px;
+  }
+
+  a {
+    position: relative;
+    display: inline-block;
+    top: -30px;
+    @media all and ( min-width: $screen-md ) {
+      top: 0;
+    }
+  }
+}
+
+.reno-h1 {
+  font-family: $poppins;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: $white;
+  text-shadow: 4px 4px 34px rgba( 16, 16, 16, 0.5 );
+  @media all and ( min-width: $screen-xs ) {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  @media all and ( min-width: $screen-md ) {
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  @media all and ( min-width: $screen-xl ) {
+    font-size: 80px;
+    line-height: 105px;
+  }
+}
+
+.reno-h2 {
+  font-family: $poppins;
+  font-weight: 800;
+  font-size: 35px;
+  margin: 0 0 60px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: $black;
+  @media all and ( min-width: $screen-md ) {
+    font-size: 70px;
+    line-height: 79px;
+  }
+}
+
+.load-more-container {
+  a {
+    font-family: $poppins;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #83BC44;
+    border: 2px solid #83BC44;
+    border-radius: 25px;
+    padding: 12px 26px;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 120px;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background: $green;
+      border-color: $green;
+      color: $white;
+    }
+  }
+}

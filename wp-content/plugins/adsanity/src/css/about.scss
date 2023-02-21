@@ -1,0 +1,9 @@
+@import './cards';
+
+.feature-section p:last-child {
+	padding-bottom: 20px;
+}
+
+section.cards article.card p {
+	padding-bottom: 0;
+}

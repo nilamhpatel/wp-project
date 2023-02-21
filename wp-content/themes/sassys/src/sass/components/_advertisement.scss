@@ -1,0 +1,38 @@
+.bild-ad-container {
+  display: flex;
+  margin-bottom: 0;
+  @media all and ( min-width: $screen-md ) {
+    margin-bottom: 25px;
+  }
+  
+  > div {
+    margin: 0 auto 60px;
+    height: auto;
+    @media all and ( min-width: $screen-md ) {
+      height: 135px;
+    }
+
+    .adsanity-inner {
+      border: 1px solid #ACACAC;
+      height: auto;
+      padding-bottom: 10px;
+      @media all and ( min-width: $screen-md ) {
+        padding: 8px 15px 15px;
+        height: 135px;
+      }
+
+      &::before {
+        content: "Advertisement";
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        margin: 0;
+        text-align: center;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        color: $grey;
+      }
+    }
+  }
+}

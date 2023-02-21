@@ -1,0 +1,162 @@
+@import './variables';
+@import '../../node_modules/chosen-js/chosen.css';
+
+.role-tracking {
+	max-width: 600px;
+	width: 100%;
+}
+
+.automatic-inclusion-rules {
+
+	.ruleset {
+		background-color: $color_white;
+		border: 1px solid $color_light_gray;
+		border-radius: 4px;
+		margin-top: 10px;
+		max-width: 600px;
+		padding: 20px;
+
+		hr {
+			margin: 20px 0 16px;
+		}
+
+		label > span,
+		legend {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 8px;
+		}
+
+		label {
+			display: block;
+			margin-top: 0;
+
+			// This class does not appear in Core, but available to Add-Ons.
+			&.adsanity-automatic-inclusion-checkbox {
+				align-content: center;
+				display: flex;
+
+				span {
+					margin-bottom: 0;
+					margin-right: 8px;
+				}
+
+				input {
+					transform: translateY(5px);
+				}
+			}
+		}
+
+		select[multiple] {
+			width: 100%;
+		}
+
+		.section-header {
+			margin-bottom: 6px;
+		}
+
+		.position {
+
+			input {
+				transform: translateY(2px);
+			}
+		}
+
+		.alignment {
+
+			label {
+				background-color: $color_button_background;
+				border: 1px solid $color_button_border;
+				color: $color_button_color;
+				display: inline-block;
+				line-height: 26px;
+				padding: 0 14px;
+
+				&.left,
+				&.center,
+				&.right {
+					border-left: none;
+				}
+
+				&.none {
+					border-bottom-left-radius: 4px;
+					border-top-left-radius: 4px;
+				}
+
+				&.right {
+					border-bottom-right-radius: 4px;
+					border-top-right-radius: 4px;
+				}
+			}
+
+			input {
+				display: none;
+
+				&:checked + label {
+					background-color: $color_button_primary_background;
+					color: $color_white;
+				}
+			}
+		}
+
+		.buttons button {
+			margin-top: 4px;
+
+			&.remove-rule {
+				background-color: $color_error;
+				border-color: $color_dark_gray;
+				color: $color_white;
+				margin-left: 8px;
+			}
+		}
+
+		.adsanity-automatic-inclusion-max-width-enabled-container,
+		.adsanity-automatic-inclusion-max-width-container {
+			align-items: center;
+			display: flex;
+
+			label {
+				font-weight: bold;
+				margin-right: 8px;
+			}
+		}
+
+		.adsanity-automatic-inclusion-max-width-enabled-container {
+			margin-bottom: 12px;
+
+			input[type="checkbox"] {
+				margin-bottom: -5px;
+			}
+		}
+
+		.adsanity-automatic-inclusion-max-width-container {
+
+			input {
+				width: 80px;
+			}
+		}
+	}
+}
+
+#adsanity-reset-stats {
+
+	background-color: $color_white;
+	border: 1px solid $color_error;
+	padding: 20px;
+
+	h2 {
+		background-color: $color_error;
+		color: $color_white;
+		margin-left: -20px;
+		margin-right: -20px;
+		margin-top: -20px;
+		padding: 10px;
+	}
+
+	button {
+		background-color: $color_error;
+		border-color: $color_dark_gray;
+		color: $color_white;
+	}
+
+}

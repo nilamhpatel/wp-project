@@ -1,0 +1,157 @@
+h2.nav-tab-wrapper{
+	padding-bottom: 0;
+	padding-left: 6px;
+}
+
+#adsanity_disallowed_agents,
+#adsanity_discovered_agents {
+	width: 98%;
+	height: 300px;
+}
+
+#customizing-bar {
+	background-color: #eee;
+	border: 1px solid #ccc;
+	margin: 20px 0;
+	position: relative;
+
+	form {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		> div {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0 10px;
+
+			> div {
+				margin-right: 20px;
+				padding: 10px 0;
+
+				&:last-child {
+					margin-right: 0;
+				}
+			}
+		}
+
+		label {
+			display: block;
+			margin-bottom: 4px;
+		}
+
+		input[type="text"],
+		select {
+			width: 120px;
+		}
+	}
+
+	#ad-choices {
+		position: relative;
+
+		.mass-select {
+
+			.selectall {
+				padding-left: 16px;
+				background: transparent url('../images/ui-check-box.png') no-repeat left center;
+			}
+			.selectnone {
+				padding-left: 16px;
+				background: transparent url('../images/ui-check-box-uncheck.png') no-repeat left center;
+			}
+		}
+
+		input[type="text"] {
+			width: 130px;
+		}
+
+		ul {
+			background-color: #fff;
+			border: 1px solid #eee;
+			bottom: -217px;
+			box-shadow: 5px 5px 5px #ccc;
+			display: none;
+			height: 225px;
+			left: 0;
+			margin-bottom: 0 !important;
+			overflow: auto;
+			position: absolute;
+			width: 100%;
+			z-index: 1;
+
+			li {
+				margin: 0;
+				padding: 4px 10px;
+
+				label {
+					display: block;
+
+					&:focus,
+					&:hover {
+						background-color: #eaf2fa;
+					}
+				}
+			}
+		}
+
+		&:focus,
+		&:hover {
+
+			ul {
+				display: block;
+			}
+		}
+	}
+
+}
+
+#custom-views-chart,
+#custom-clicks-chart {
+	width: 95%;
+	height: 400px;
+}
+
+#adsanity-ad-group-dashboard .loading {
+	background: url('../images/loading.gif') no-repeat;
+	background-color: #fff;
+	background-position: center center;
+	background-size: 16px 16px;
+	float: right;
+	opacity: .7;
+	margin: 5px 5px 0;
+}
+
+#adsanity-ad-group-dashboard .loading tbody tr {
+	height: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.ads_page_adsanity-stats .all-time-table {
+		float: left;
+		margin-right: 1.3333%;
+		width: 32%;
+	}
+
+	.ads_page_adsanity-stats .all-time-summary {
+		margin-right: 1.3333%;
+	}
+}
+
+.ads_page_adsanity-stats .all-time-summary {
+	margin-bottom: 20px;
+}
+
+.ads_page_adsanity-stats .all-time-summary table {
+	padding: 10px;
+	table-layout: fixed;
+}
+
+.ads_page_adsanity-stats .all-time-summary tbody tr td {
+	padding: 0;
+	text-align: center;
+}
+
+.ads_page_adsanity-stats .all-time-summary tbody tr:nth-child(2) td {
+	font-size: 1.5rem;
+}

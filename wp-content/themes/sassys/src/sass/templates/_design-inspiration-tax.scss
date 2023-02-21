@@ -1,0 +1,115 @@
+.reno-design-inspiration-tax-container {
+  .reno-design-inspiration-list-container {
+    margin-top: -100px;
+    margin-bottom: 85px;
+
+    .card-list-container {
+      margin: 0;
+
+      a.card-contanier {
+        transition: all .25s;
+        background: $white;
+        margin: 0 0 90px;
+        border: none;
+        position: relative;
+        display: block;
+        box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.15 );
+        text-decoration: none;
+        color: initial;
+
+        &:active,
+        &:focus,
+        &:hover {
+          box-shadow: 0px 0px 20px rgba( 0, 0, 0, 0.3 );
+        }
+
+        .project-image-container {
+          height: 100%;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .card-content-container {
+          padding: 20px 30px 20px 6px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 100%;
+
+          h2 {
+            font-family: $nunito;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 48px;
+            color: $black;
+          }
+
+          .data-container {
+            border-top: 1px solid $light-grey;
+            border-bottom: 1px solid $light-grey;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .extra-padding {
+              padding: 10px 0;
+
+              &:first-of-type {
+                padding-right: 10px;
+              }
+
+              p {
+                font-family: $nunito;
+                font-weight: 700;
+                font-size: 16px;
+                margin: 5px 0;
+                line-height: 24px;
+                color: $dark-grey;
+
+                span {
+                  font-weight: 400;
+                }
+              }
+
+              img {
+                object-fit: contain;
+                width: 110px;
+              }
+            }
+          }
+
+          .info-container {
+            font-family: $nunito;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            margin: 20px 0 0;
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+}
+
+.reno-back-to-parent-container {
+  z-index: 3;
+  position: relative;
+
+  a {
+    font-family: $nunito;
+    // margin-left: 12px;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: $white;
+  }
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap');
+
+section.cards {
+	margin-bottom: 30px;
+
+	@media screen and (min-width: 1200px) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		margin-left: -0.66%;
+		width: 101.33%;
+	}
+
+	header {
+		margin: 0 0.66%;
+		width: 100%;
+
+		h1 {
+			font-size: 1.2rem;
+			text-transform: uppercase;
+		}
+	}
+
+	article.card {
+		background: #fff;
+		box-sizing: border-box;
+		margin-bottom: 2%;
+		position: relative;
+		display: block;
+		border-radius: .8rem;
+		box-shadow: 0.2rem 0.3rem 2.7rem 0.3rem rgba(55,50,145,.14);
+		padding: 1rem;
+		width: 100%;
+
+		@media screen and (min-width: 1200px) {
+			margin: 2% 0.66%;
+			max-width: 25rem;
+			width: 32%;
+		}
+
+		h1 {
+			color: #373291;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 1.2rem;
+			font-weight: 600;
+			letter-spacing: -0.1px;
+			margin: 0;
+			padding: 0.75rem 1rem 0;
+			text-align: center;
+		}
+
+		.image-wrap,
+		.button-wrap {
+			text-align: center;
+			margin: 0 auto;
+		}
+
+		p {
+			padding: 0 1rem 4rem;
+		}
+
+		img {
+			width: 60%;
+		}
+
+		.button-wrap {
+			height: 40px;
+			position: relative;
+		}
+
+		a {
+			background-color: transparent !important;
+			border-bottom: none;
+			border-top: none;
+			border-left: 3px solid #37cdc7!important;
+			border-right: 3px solid #c1a6ff!important;
+			color: #373291;
+			background: #fff;
+			bottom: 0;
+			clear: both;
+			display: block;
+			font-size: 1rem;
+			font-weight: 700;
+			left: 50%;
+			margin: 1rem 0;
+			padding: 1rem .2rem;
+			position: absolute;
+			text-align: center;
+			text-decoration: none;
+			transform: translateX(-50%);
+			width: 45%;
+
+			&:before,
+			&:after {
+				background: linear-gradient(90deg,#37cdc7,#c1a6ff);
+				content: '';
+				height: 3px;
+				left: 0;
+				position: absolute;
+				width: calc(100% + 1px);
+			}
+
+			&:before {
+				top: 0;
+			}
+
+			&:after {
+				bottom: 0;
+			}
+
+			&:focus,
+			&:hover {
+				background: #ad88ff !important;
+				border-color: #986aff !important;
+				color: #fff;
+
+				&:before,
+				&:after {
+					background: #986aff !important;
+				}
+			}
+		}
+
+		.optional-heading {
+			margin-top: 0;
+			position: absolute;
+			right: 0;
+			text-align: right;
+			top: 0;
+
+			p {
+				border-bottom-left-radius: .8rem;
+				border-top-right-radius: .8rem;
+				color: #fff;
+				display: inline-block;
+				font-family: 'Montserrat', sans-serif;
+				font-size: 1.1rem;
+				font-weight: 300;
+				line-height: 1.65;
+				margin: 0;
+				padding: .4rem 2rem;
+
+				&.active {
+					background-color: #37cdc7;
+				}
+
+				&.inactive {
+					background-color: #986aff;
+				}
+			}
+		}
+	}
+}

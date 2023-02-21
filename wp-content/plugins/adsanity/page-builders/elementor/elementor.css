@@ -1,0 +1,22 @@
+.elementor-element .icon .elementor-adsanity {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	display: block;
+	height: 28px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 28px;
+}
+
+.elementor-element .icon .elementor-adsanity-single {
+	background-image: url(./icons/single.svg);
+}
+
+.elementor-element .icon .elementor-adsanity-group {
+	background-image: url(./icons/group.svg);
+}
+
+.elementor-element .icon .elementor-adsanity-random {
+	background-image: url(./icons/random.svg);
+}

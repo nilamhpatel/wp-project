@@ -1,0 +1,44 @@
+.reno-social-sharing-container {
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  float: right;
+  padding-top: 50px;
+  margin-top: 50px;
+
+  a {
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+    line-height: 1;
+    text-decoration: none;
+
+    &:active,
+    &:focus,
+    &:hover {
+      opacity: .7;
+    }
+
+    &.share-via-facebook {
+      border-top-left-radius: 25px;
+      background: $social-facebook-f;
+    }
+
+    &.share-via-twitter {
+      background: $social-twitter;
+    }
+
+    &.share-via-pinterest {
+      background: $social-pinterest;
+    }
+
+    &.share-via-email {
+      background: $grey;
+    }
+  }
+}

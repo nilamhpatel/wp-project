@@ -1,0 +1,298 @@
+.reno-contact-page-container {
+    .left-contact-contact{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+    .green-check-contact{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .green-check-contact:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 50%;
+        background: $light-grey;
+        z-index: 0;
+    }
+    .green-box-contact{
+        margin-bottom: 80px;
+    }
+    .contact-green-check {
+        padding: 60px 0; 
+        max-width: 670px; 
+        text-align: center;
+        
+        hr{
+            width: 100%; 
+            height: 2px; 
+            left: 0; 
+            top: 50px; 
+            background: $light-grey; 
+            transform: matrix(1, 0, 0, -1, 0, 0);
+            color:$light-grey;
+            opacity: 1;
+        }
+    }
+    
+    img.green-check-img{
+        z-index: 1;
+        position: relative;
+    }
+    .find-renovator-txt{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: $nunito;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 29px;
+        text-align: center;
+    }
+    a.green-button {
+        padding: 12px 26px;
+        border-radius: 25px;
+        background: $white;
+        border: 2px solid $green;
+        color: $green;
+        text-decoration: none;
+        font-family: $poppins;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .contact-container{
+        padding: 60px 0;  
+        max-width: 970px; 
+        margin: 0 auto; 
+        font-family: $nunito;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: $black;
+    }
+    .gformright{
+        margin-top: -80px; 
+        background: white; 
+        position: relative;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+        padding: 0 0;
+
+        @media all and ( max-width: $screen-lg ) {
+                margin-top: 0; 
+                width: 80%;
+                margin: 0 auto;
+                display: block;
+        }
+        @media all and ( max-width: $screen-md ) {
+            margin-top: 0; 
+            width: 100%;
+        }
+    }
+    
+    .head-inquiries{
+        padding-bottom: 20px;
+        h3{ 
+            font-family: $nunito;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 48px;
+            color: $black;
+        }
+        p{
+            font-family: $nunito;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+    .gforminquiries{
+        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+        clear: both;
+        padding: 60px 80px; 
+        margin: 0 auto;     
+        justify-content: space-between;
+   
+        @media all and ( max-width: $screen-lg ) {            
+            padding: 60px 80px;            
+        }
+        @media all and ( max-width: $screen-md ) {            
+                padding: 60px 40px;         
+        }
+        @media all and ( max-width: $screen-sm ) {            
+            padding: 60px 20px; 
+        }
+    
+        .gform_wrapper {
+            .gform_body {
+                .gfield_label{    
+                    position: absolute;
+                    display: block;
+                    padding: 0;
+                    font-family: $nunito;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: $dark-grey;
+                }
+                .has-focus-or-value .gfield_label{   
+                    line-height: 5px;
+                    top: -5px;
+                    color: $grey;
+                    font-size: 13px;   
+                }
+                input[type=text], input[type=email], input[type=tel], select {
+                    border-bottom: 1px solid #ABABAB;
+                    border-top: 0;
+                    border-left: 0;
+                    border-right: 0;
+                    font-family: $nunito;
+                    font-weight: 600;
+                    font-size: 18px;
+                    line-height: 20px;
+                    color: $dark-grey;
+                    padding: 10px 0 5px 0;
+                }
+               
+                .gfield_visibility_visible{
+                    position: relative;
+                    padding: 8px 0;
+
+                    select, select option{
+                        line-height: 27px;    
+                        font-family: $nunito;
+                        font-weight: 600;
+                        font-size: 18px;
+                        padding: 0 0 10px 0;
+                        color: $dark-grey;      
+                        outline: 0;
+                    } 
+                }                 
+            }    
+            .gform_footer {
+                text-align: center;
+                width: 100%;
+                margin: 0 auto;
+                float: none;
+                display: inline-block;
+
+                .gform_button {
+                    max-width: 117px;
+                    padding: 12px 26px;
+                    height: 47px;
+                    font-family: $poppins;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: $white;
+                    background: $green;
+                    border-radius: 25px;
+                    border: none;
+                }
+            }       
+        }
+      
+        
+        input:-internal-autofill-selected {
+            background-image: none !important;
+            background-color: $white !important;
+            color: transparent !important;
+        }        
+        
+               
+        textarea:focus, input:focus{
+            outline: none;
+        }
+        .gform_heading{
+            padding-bottom: 10px;
+
+            p.gform_required_legend{
+                display: none;
+            }	
+            span.gform_description {
+                font-family: $nunito;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                color: $black;
+                width: 100%
+            }     
+        }
+      
+        
+        .ginput_container.ginput_container_consent {
+            display: flex;
+
+            input[type=checkbox]{        
+                outline: 0;
+                appearance: none;
+                max-width: 20px;
+                width: 100%;
+                height: 20px;
+                border: 2px solid #c2c2c2;
+                border-radius: 0;
+                margin: 5px 10px 0 0;
+                background: $white;
+            }
+            input[type=checkbox]:checked {
+                background-image: url(/wp-content/themes/sassys/images/check-solid.svg);
+                border-radius: 0;
+                font-size: 16px;
+            }
+            label.gfield_consent_label {
+                padding: 0;
+                font-family: $poppins;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 21px;
+                color: $dark-grey;
+            }
+            .gfield_required_asterisk{
+                display: none;
+            }
+            .gfield_required.gfield_required_text{
+                display:none;
+            }
+        }
+      
+        .gform_footer.top_label {
+            text-align: center;
+        }
+        .gform_legacy_markup_wrapper {
+            h3.gform_title{
+                font-family: $nunito;
+                font-weight: 700;
+                font-size: 35px;
+                line-height: 48px;
+                color: $black;
+            }
+            ul.gform_fields li.gfield{
+                padding-right: 0;
+            }    
+            input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]){
+                padding: 10px 0 5px 0;
+                font-family: $nunito;
+                font-weight: 600;
+                font-size: 18px;
+                background-color: $white;
+            } 
+        }        
+        .gform_confirmation_wrapper:before {
+            content: url(/wp-content/themes/sassys/images/success-circle-check-icon.svg);
+            font-size: 0;
+            text-align: center;
+            display: block;
+            margin-bottom: 1.6rem;
+        } 
+    } 
+} 
+ 

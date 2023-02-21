@@ -1,0 +1,167 @@
+.reno-blog-page-container {
+  .search-blog-form-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px 10px 50px;
+    align-items: center;
+    @media all and ( min-width: $screen-lg ) {
+      flex-direction: row;
+      padding: 60px 60px 50px;
+    }
+
+    label {
+      display: none;
+    }
+
+    .input-field-container {
+      position: relative;
+      margin-bottom: 20px;
+      max-width: 350px;
+      width: 100%;
+      z-index: 0;
+      @media all and ( min-width: $screen-lg ) {
+        margin-right: 40px;
+        margin-bottom: 0;
+      }
+
+      &::before {
+        font-family: $fa;
+        content: "\f002";
+        position: absolute;
+        left: 4px;
+        top: 18px;
+        color: $grey;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      input {
+        height: 55px;
+        padding: 14px 14px 14px 35px;
+        border: none;
+        position: relative;
+        background: transparent;
+        z-index: 2;
+        border-bottom: 1px solid $grey;
+        font-family: $nunito;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: $grey;
+        width: 100%;
+      }
+    }
+
+    .search-field-container {
+      margin-right: 0;
+      margin-bottom: 20px;
+      max-width: 350px;
+      width: 100%;
+      @media all and ( min-width: $screen-lg ) {
+        margin-right: 60px;
+        margin-bottom: 0;
+      }
+
+      select {
+        height: 55px;
+        padding: 14px 25px 14px 4px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid $grey;
+        width: 100%;
+        font-family: $nunito;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: $dark-grey;
+      }
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      min-width: 256px;
+
+      input[ type=submit ] {
+        max-width: 117px;
+        padding: 10px 26px;
+        margin-right: 20px;
+        height: 47px;
+        font-family: $poppins;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $white;
+        background: $green;
+        border-radius: 25px;
+        border: 2px solid $green;
+
+        &:active,
+        &:focus,
+        &:hover {
+          background: $light-green;
+          border-color: $light-green;
+        }
+      }
+
+      input[ type=reset ] {
+        max-width: 117px;
+        padding: 10px 26px;
+        height: 47px;
+        font-family: $poppins;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $green;
+        background: $white;
+        border-radius: 25px;
+        border: 2px solid $green;
+
+        &:active,
+        &:focus,
+        &:hover {
+          color: $white;
+          background: $green;
+          border-color: $green;
+        }
+      }
+    }
+  }
+
+  .blog-page-outer-container {
+    margin-top: -100px;
+    margin-bottom: 85px;
+
+    .blog-page-main-container {
+      background: $white;
+      position: relative;
+
+      .blog-list-container {
+        margin: 0 0 30px;
+        justify-content: center;
+        @media all and ( min-width: $screen-md ) {
+          margin: 0 -45px 30px;
+        }
+
+        .reno-blog-card-container {
+          a.card {
+            transition: all .25s;
+            box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.15 );
+
+            &:active,
+            &:focus,
+            &:hover {
+              box-shadow: 0px 0px 20px rgba( 0, 0, 0, 0.3 );
+            }
+          }
+        }
+      }
+    }
+  }
+}

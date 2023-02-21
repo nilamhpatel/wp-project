@@ -1,0 +1,1233 @@
+# Copyright (C) 2022 AdSanity Core
+# This file is distributed under the same license as the AdSanity Core package.
+msgid ""
+msgstr ""
+"Project-Id-Version: AdSanity Core\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-27 20:47+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../admin-pages/about.php:43, ../admin-pages/about.php:44
+msgid "About"
+msgstr ""
+
+#: ../admin-pages/add-ons.php:43, ../admin-pages/add-ons.php:44, ../views/about.php:20, ../views/about.php:159, ../views/add-ons.php:16, ../views/add-ons.php:20, ../views/changelog.php:20, ../views/settings.php:49, ../views/support.php:20
+msgid "Add-Ons"
+msgstr ""
+
+#: ../admin-pages/changelog.php:43, ../admin-pages/changelog.php:44, ../views/about.php:22, ../views/add-ons.php:22, ../views/changelog.php:16, ../views/changelog.php:22, ../views/support.php:22
+msgid "Changelog"
+msgstr ""
+
+#: ../admin-pages/settings.php:46, ../admin-pages/settings.php:47, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:31, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:31, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:31, ../views/settings.php:33
+msgid "Settings"
+msgstr ""
+
+#: ../admin-pages/settings.php:83
+msgid "WARNING! Before taking this action, we recommend that you create a backup of your database. This will allow you to undo this action within minutes."
+msgstr ""
+
+#: ../admin-pages/settings.php:125
+msgid "Tracking Options"
+msgstr ""
+
+#: ../admin-pages/settings.php:131
+msgid "Roles to Exclude From Tracking"
+msgstr ""
+
+#: ../admin-pages/settings.php:139
+msgid "Ads.txt"
+msgstr ""
+
+#: ../admin-pages/settings.php:145
+msgid "Entries"
+msgstr ""
+
+#: ../admin-pages/settings.php:165
+msgid "Settings pertaining to how views and clicks are tracked."
+msgstr ""
+
+#: ../admin-pages/settings.php:211
+msgid "As part of a broader effort to eliminate the ability to profit from counterfeit inventory in the open digital advertising ecosystem, Ads.txt provides a mechanism to enable content owners to declare who is authorized to sell their inventory."
+msgstr ""
+
+#: ../admin-pages/settings.php:213
+msgid "Learn More"
+msgstr ""
+
+#: ../admin-pages/stats.php:47, ../admin-pages/stats.php:48, ../views/stats.php:16
+msgid "Reports"
+msgstr ""
+
+#: ../admin-pages/support.php:43, ../admin-pages/support.php:44, ../views/about.php:21, ../views/add-ons.php:21, ../views/changelog.php:21, ../views/support.php:16, ../views/support.php:21
+msgid "Support"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:58, ../page-builders/elementor/class-single.php:90, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:38, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:39, ../page-builders/divi/includes/modules/SingleAd/SingleAd.php:61
+msgid "Ad"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:59, ../custom-post-types/class-adsanity-ads-cpt.php:154, ../custom-post-types/class-adsanity-ads-cpt.php:278
+msgid "Ads"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:155
+msgid "Manage Ads"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:157, ../custom-post-types/class-adsanity-ads-cpt.php:158, ../custom-post-types/class-adsanity-ads-cpt.php:160, ../views/about.php:169, ../views/changelog.php:114
+msgid "Create Ad"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:159
+msgid "Edit Ad"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:171, ../custom-post-types/class-adsanity-ads-cpt.php:1025
+msgid "Ad Image"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:172, ../custom-post-types/class-adsanity-ads-cpt.php:174, ../custom-post-types/class-adsanity-ads-cpt.php:1089
+msgid "Set ad image"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:173, ../custom-post-types/class-adsanity-ads-cpt.php:1094
+msgid "Remove ad image"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:234
+msgctxt "taxonomy general name"
+msgid "Ad Groups"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:235
+msgctxt "taxonomy singular name"
+msgid "Group"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:236
+msgid "Search Ad Groups"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:237
+msgid "All Groups"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:238
+msgid "Parent Group"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:239
+msgid "Parent Group: "
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:240
+msgid "Edit Group"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:241
+msgid "Update Group"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:242
+msgid "Add New Group"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:243
+msgid "New Group Name"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:244, ../page-builders/divi/includes/modules/AdGroupItem/AdGroupItem.php:24
+msgid "Ad Groups"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:276, ../custom-post-types/class-adsanity-ads-cpt.php:462
+msgid "Shortcode"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:277, ../custom-post-types/class-adsanity-ads-cpt.php:463
+msgid "Template Tag"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:279
+msgid "Active"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:321, ../custom-post-types/class-adsanity-ads-cpt.php:312, ../custom-post-types/class-adsanity-ads-cpt.php:560, ../custom-post-types/class-adsanity-ads-cpt.php:551, ../custom-post-types/class-adsanity-ads-cpt.php:1122, ../custom-post-types/class-adsanity-ads-cpt.php:1139
+msgid "Copy to clipboard"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:460, ../views/stats-dashboard-group-block.php:43, ../views/stats-dashboard-group-block.php:53, ../views/stats-dashboard.php:135, ../views/stats-dashboard.php:168, ../views/stats-dashboard.php:181, ../views/stats-dashboard.php:223
+msgid "Ad Title"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:461
+msgid "Dimensions"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:464
+msgid "Today's Stats"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:465, ../custom-post-types/class-adsanity-ads-cpt.php:1287
+msgid "Display From"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:466, ../custom-post-types/class-adsanity-ads-cpt.php:1325
+msgid "Until"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:625
+msgid "Forever"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:611, ../custom-post-types/class-adsanity-ads-cpt.php:597, ../custom-post-types/class-adsanity-ads-cpt.php:536
+msgid "- not set -"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:572
+msgid "%s views"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:579
+msgid "%s clicks"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:540
+msgid "- invalid size -"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:845, ../custom-post-types/class-adsanity-ads-cpt.php:904
+msgid "Ad Expires on "
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:848, ../custom-post-types/class-adsanity-ads-cpt.php:907
+msgid "Publish"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:849, ../custom-post-types/class-adsanity-ads-cpt.php:908
+msgid "forever"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:950
+msgid "Give this ad a title"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:979, ../custom-post-types/class-adsanity-ads-cpt.php:1399
+msgid "Ad Size"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:989
+msgid "Notes"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:999
+msgid "Ad Details"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1011
+msgid "Non-Widget Embeds"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1037
+msgid "Ad Code"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1049
+msgid "Ad Text"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1061
+msgid "Ad Stats"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1117
+msgid "Clicking this button to copy the shortcode for this ad to your clipboard for use in content areas."
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1134
+msgid "Click this button to copy the php code for this ad to your clipboard for use in theme templates."
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1165
+msgid "If you have code from an advertising partner, paste that code here. If you'd like to create your own text based ads, you can write custom HTML in the field below. To track clicks on links in the HTML, use the placeholder <code>%link%</code> as your href values. For example, <code>&lt;a href=\"%link%\"&gt;Link Text&lt;/a&gt;</code>. Be sure to enter your destination URL in the Tracking URL field above."
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1191
+msgid "Use this field to create a custom text ad. In order to track clicks in your text ad, you must set all links to the permalink for this ad."
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1213
+msgid "Background Color (optional)"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1226
+msgid "Border Color (optional)"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1241
+msgid "Border width (pixels, optional)"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1255
+msgid "Vertically align text?"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1281
+msgid "Edit"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1368
+msgid "OK"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1372
+msgid "Publish Forever"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1376
+msgid "Cancel"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1420
+msgid "Size Reference"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1455
+msgid "Open in a new window?"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1461
+msgid "Tracking URL"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1538
+msgid "Stats Summary"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1548
+msgid "total views"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1555
+msgid "total clicks"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1562
+msgid "total CTR"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1571
+msgid "Views in the past 7 days"
+msgstr ""
+
+#: ../custom-post-types/class-adsanity-ads-cpt.php:1579
+msgid "Clicks in the past 7 days"
+msgstr ""
+
+#: ../lib/adstxt.php:195
+msgid "Ads.txt file detected"
+msgstr ""
+
+#: ../lib/adstxt.php:197
+msgid "Please copy the contents of this file into the "
+msgstr ""
+
+#: ../lib/adstxt.php:207
+msgid "ads.txt settings"
+msgstr ""
+
+#: ../lib/adstxt.php:208
+msgid "and delete the file."
+msgstr ""
+
+#: ../lib/adstxt.php:347
+msgid "Invalid record"
+msgstr ""
+
+#: ../lib/adstxt.php:299
+msgid "\"%s\" does not appear to be a valid exchange domain"
+msgstr ""
+
+#: ../lib/adstxt.php:311
+msgid "Third field should be RESELLER or DIRECT"
+msgstr ""
+
+#: ../lib/adstxt.php:329
+msgid "\"%s\" does not appear to be a valid TAG-ID"
+msgstr ""
+
+#: ../lib/adstxt.php:266
+msgid "\"%s\" does not appear to be a valid subdomain"
+msgstr ""
+
+#: ../lib/adstxt.php:245
+msgid "Unrecognized variable"
+msgstr ""
+
+#: ../lib/ajax.php:48
+msgid "You must choose an ad to view."
+msgstr ""
+
+#: ../lib/ajax.php:55
+msgid "For display reasons, please select no more than %s ads to compare."
+msgstr ""
+
+#: ../lib/ajax.php:170
+msgid "There is no statistical data to show with the given parameters."
+msgstr ""
+
+#: ../lib/automatic-inclusion.php:44
+msgid "Display Options"
+msgstr ""
+
+#: ../lib/automatic-inclusion.php:50
+msgid "Automatic Inclusion"
+msgstr ""
+
+#: ../lib/class-adsanity-export.php:41
+msgid "You must choose an ad to export."
+msgstr ""
+
+#: ../lib/class-adsanity-export.php:53
+msgid "You must select a date range to export."
+msgstr ""
+
+#: ../lib/class-adsanity-export.php:73
+msgid "Title"
+msgstr ""
+
+#: ../lib/class-adsanity-export.php:74, ../views/stats-custom.php:104, ../views/stats-custom.php:122
+msgid "Date"
+msgstr ""
+
+#: ../lib/class-adsanity-export.php:75, ../views/stats-custom.php:105, ../views/stats-custom.php:123, ../views/stats-dashboard-group-block.php:44, ../views/stats-dashboard-group-block.php:54, ../views/stats-dashboard.php:182, ../views/stats-dashboard.php:224
+msgid "Views"
+msgstr ""
+
+#: ../lib/class-adsanity-export.php:76, ../views/stats-custom.php:106, ../views/stats-custom.php:124, ../views/stats-dashboard-group-block.php:45, ../views/stats-dashboard-group-block.php:55, ../views/stats-dashboard.php:136, ../views/stats-dashboard.php:169, ../views/stats-dashboard.php:183, ../views/stats-dashboard.php:225
+msgid "Clicks"
+msgstr ""
+
+#: ../lib/class-adsanity-export.php:77
+msgid "CTR %"
+msgstr ""
+
+#: ../lib/class-adsanity-export.php:133
+msgid "There is no statistical data to show for the given parameters."
+msgstr ""
+
+#: ../lib/class-adsanity-export.php:139, ../views/stats-custom.php:113
+msgid "Totals"
+msgstr ""
+
+#: ../lib/gutenberg.php:181, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:21, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:21, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:21
+msgid "AdSanity"
+msgstr ""
+
+#: ../lib/html5.php:42
+msgid "Ad Upload"
+msgstr ""
+
+#: ../lib/html5.php:92
+msgid "Invalid filetype."
+msgstr ""
+
+#: ../lib/html5.php:153
+msgid "Zip file must contain an index.html file."
+msgstr ""
+
+#: ../lib/initialization.php:54
+msgid "This method was removed from AdSanity in version 1.8. You can now use the constant `ADSANITY_DEFAULT_AD_SIZES` in place of this call."
+msgstr ""
+
+#: ../lib/query.php:65
+msgid "No ads found."
+msgstr ""
+
+#: ../lib/shortcodes.php:87
+msgid "Select an Ad"
+msgstr ""
+
+#: ../lib/shortcodes.php:89, ../page-builders/elementor/class-widget-base.php:91, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:48, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:48, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:49, ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:37, ../page-builders/divi/includes/modules/RandomAd/RandomAd.php:37, ../page-builders/divi/includes/modules/SingleAd/SingleAd.php:69, ../views/automatic-inclusion.php:263, ../views/stats-custom.php:55, ../widgets/group-of-ads.php:293, ../widgets/random-ad.php:258
+msgid "None"
+msgstr ""
+
+#: ../lib/shortcodes.php:90, ../page-builders/elementor/class-widget-base.php:92, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:49, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:49, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:50, ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:38, ../page-builders/divi/includes/modules/RandomAd/RandomAd.php:38, ../page-builders/divi/includes/modules/SingleAd/SingleAd.php:70, ../views/automatic-inclusion.php:272, ../widgets/group-of-ads.php:302, ../widgets/random-ad.php:267
+msgid "Left"
+msgstr ""
+
+#: ../lib/shortcodes.php:91, ../page-builders/elementor/class-widget-base.php:93, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:50, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:50, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:51, ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:39, ../page-builders/divi/includes/modules/RandomAd/RandomAd.php:39, ../page-builders/divi/includes/modules/SingleAd/SingleAd.php:71, ../views/automatic-inclusion.php:281, ../widgets/group-of-ads.php:311, ../widgets/random-ad.php:276
+msgid "Center"
+msgstr ""
+
+#: ../lib/shortcodes.php:92, ../page-builders/elementor/class-widget-base.php:94, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:51, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:51, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:52, ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:40, ../page-builders/divi/includes/modules/RandomAd/RandomAd.php:40, ../page-builders/divi/includes/modules/SingleAd/SingleAd.php:72, ../views/automatic-inclusion.php:290, ../widgets/group-of-ads.php:320, ../widgets/random-ad.php:285
+msgid "Right"
+msgstr ""
+
+#: ../lib/shortcodes.php:94, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:80, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:70, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:71, ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:64, ../page-builders/divi/includes/modules/RandomAd/RandomAd.php:54, ../page-builders/divi/includes/modules/SingleAd/SingleAd.php:86
+msgid "Max Width (px)"
+msgstr ""
+
+#: ../lib/shortcodes.php:95, ../page-builders/elementor/class-widget-base.php:102, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:66, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:56, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:57, ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:55, ../page-builders/divi/includes/modules/RandomAd/RandomAd.php:45, ../page-builders/divi/includes/modules/SingleAd/SingleAd.php:77, ../views/automatic-inclusion.php:380, ../widgets/group-of-ads.php:260, ../widgets/random-ad.php:225, ../widgets/single-ad.php:234
+msgid "Max Width Enabled?"
+msgstr ""
+
+#: ../lib/shortcodes.php:96, ../page-builders/elementor/class-widget-base.php:87, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:45, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:45, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:46, ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:34, ../page-builders/divi/includes/modules/RandomAd/RandomAd.php:34, ../page-builders/divi/includes/modules/SingleAd/SingleAd.php:66
+msgid "Align"
+msgstr ""
+
+#: ../lib/shortcodes.php:97
+msgid "Insert Ad"
+msgstr ""
+
+#: ../lib/shortcodes.php:98
+msgid "Insert Single Ad"
+msgstr ""
+
+#: ../lib/shortcodes.php:99, ../lib/shortcodes.php:100
+msgid "Insert Ad Group"
+msgstr ""
+
+#: ../lib/shortcodes.php:113
+msgid "Select an Ad Group"
+msgstr ""
+
+#: ../lib/shortcodes.php:114, ../page-builders/elementor/class-group.php:92, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:56, ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:45
+msgid "Number of Ads"
+msgstr ""
+
+#: ../lib/shortcodes.php:115
+msgid "Number of columns"
+msgstr ""
+
+#: ../lib/shortcodes.php:116
+msgid "Please fill in all fields in a popup."
+msgstr ""
+
+#: ../lib/tracking.php:214
+msgid "There was an error deleting resetting all ad views."
+msgstr ""
+
+#: ../lib/tracking.php:231
+msgid "There was an error deleting resetting all ad clicks."
+msgstr ""
+
+#: ../lib/tracking.php:248
+msgid "All statistic data has been removed."
+msgstr ""
+
+#: ../page-builders/elementor/class-group.php:32, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:19
+msgid "AdSanity Ad Group"
+msgstr ""
+
+#: ../page-builders/elementor/class-group.php:74, ../page-builders/elementor/class-random.php:74, ../page-builders/elementor/class-single.php:81
+msgid "Options"
+msgstr ""
+
+#: ../page-builders/elementor/class-group.php:83, ../page-builders/elementor/class-random.php:83, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:38, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:38, ../page-builders/divi/includes/modules/AdGroupItem/AdGroupItem.php:23, ../page-builders/divi/includes/modules/AdGroupItem/AdGroupItem.php:30, ../page-builders/divi/includes/modules/AdGroupItem/AdGroupItem.php:35, ../page-builders/divi/includes/modules/AdGroupItem/AdGroupItem.php:63, ../widgets/group-of-ads.php:50
+msgid "Ad Group"
+msgstr ""
+
+#: ../page-builders/elementor/class-group.php:102, ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:61, ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:50
+msgid "Number of Columns"
+msgstr ""
+
+#: ../page-builders/elementor/class-random.php:32, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:19
+msgid "AdSanity Random Ad"
+msgstr ""
+
+#: ../page-builders/elementor/class-single.php:32, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:19
+msgid "AdSanity Single Ad"
+msgstr ""
+
+#: ../page-builders/elementor/class-widget-base.php:104
+msgid "Show"
+msgstr ""
+
+#: ../page-builders/elementor/class-widget-base.php:105
+msgid "Hide"
+msgstr ""
+
+#: ../page-builders/elementor/class-widget-base.php:114
+msgid "Max Width"
+msgstr ""
+
+#: ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:20
+msgid "Place an ad group"
+msgstr ""
+
+#: ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:34, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:34, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:34
+msgid "Ad Settings"
+msgstr ""
+
+#: ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:39, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:39
+msgid "Group"
+msgstr ""
+
+#: ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:69, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:59, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:60, ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:58, ../page-builders/divi/includes/modules/RandomAd/RandomAd.php:48, ../page-builders/divi/includes/modules/SingleAd/SingleAd.php:80
+msgid "No"
+msgstr ""
+
+#: ../page-builders/beaver-builder/adsanity-group/adsanity-group.php:70, ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:60, ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:61, ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:59, ../page-builders/divi/includes/modules/RandomAd/RandomAd.php:49, ../page-builders/divi/includes/modules/SingleAd/SingleAd.php:81
+msgid "Yes"
+msgstr ""
+
+#: ../page-builders/beaver-builder/adsanity-random/adsanity-random.php:20
+msgid "Place a random ad"
+msgstr ""
+
+#: ../page-builders/beaver-builder/adsanity-single/adsanity-single.php:20
+msgid "Place a single ad"
+msgstr ""
+
+#: ../page-builders/divi/includes/AdSanityDiviCustomModules.php:35
+msgid "Loading content &hellip;"
+msgstr ""
+
+#: ../page-builders/divi/includes/AdSanityDiviCustomModules.php:36
+msgid "Error loading ad"
+msgstr ""
+
+#: ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:18
+msgid "AdSanity - Ad Group"
+msgstr ""
+
+#: ../page-builders/divi/includes/modules/AdGroup/AdGroup.php:149, ../page-builders/divi/includes/modules/RandomAd/RandomAd.php:128
+msgid "Add New Ad Group"
+msgstr ""
+
+#: ../page-builders/divi/includes/modules/RandomAd/RandomAd.php:18
+msgid "AdSanity - Random Ad"
+msgstr ""
+
+#: ../page-builders/divi/includes/modules/SingleAd/SingleAd.php:18
+msgid "AdSanity - Single Ad"
+msgstr ""
+
+#: ../theme-templates/single-ads.php:61
+msgid "Error"
+msgstr ""
+
+#: ../theme-templates/single-ads.php:66
+msgid "You have reached this URL in error."
+msgstr ""
+
+#: ../update-engine/remote-api.php:96
+msgid "active"
+msgstr ""
+
+#: ../update-engine/remote-api.php:100
+msgid "inactive"
+msgstr ""
+
+#: ../update-engine/remote-api.php:119
+msgid "License"
+msgstr ""
+
+#: ../update-engine/remote-api.php:137
+msgid "Enter your license for %s in the field below."
+msgstr ""
+
+#: ../update-engine/remote-api.php:174
+msgid "Activate License"
+msgstr ""
+
+#: ../update-engine/remote-api.php:166
+msgid "Deactivate License"
+msgstr ""
+
+#: ../views/about.php:16
+msgid "Welcome to "
+msgstr ""
+
+#: ../views/about.php:19, ../views/add-ons.php:19, ../views/changelog.php:19, ../views/support.php:19
+msgid "Welcome"
+msgstr ""
+
+#: ../views/about.php:30
+msgid "AdSanity is the easiest Ad Management plugin for WordPress."
+msgstr ""
+
+#: ../views/about.php:34
+msgid "If you have used WordPress to write blog posts or pages, you already know how to create ads in AdSanity. We have purposefully used the WordPress interface to make AdSanity easy to pick up without training."
+msgstr ""
+
+#: ../views/about.php:51
+msgid "Easy Set Up"
+msgstr ""
+
+#: ../views/about.php:58
+msgid "WordPress logo"
+msgstr ""
+
+#: ../views/about.php:60
+msgid "Familiar User Interface"
+msgstr ""
+
+#: ../views/about.php:61
+msgid "Users familiar with managing posts and categories will find managing ads and groups easy."
+msgstr ""
+
+#: ../views/about.php:65
+msgid "Line graph icon"
+msgstr ""
+
+#: ../views/about.php:67
+msgid "Automatic Tracking"
+msgstr ""
+
+#: ../views/about.php:68
+msgid "As soon as you install AdSanity and place ads on your site, we start tracking views and clicks."
+msgstr ""
+
+#: ../views/about.php:76
+msgid "Placing Your Ads"
+msgstr ""
+
+#: ../views/about.php:83
+msgid "Gutenberg blocks"
+msgstr ""
+
+#: ../views/about.php:85
+msgid "Gutenberg Blocks"
+msgstr ""
+
+#: ../views/about.php:86
+msgid "A new editing experience has come to WordPress &mdash; Gutenberg. You can now include ads natively in Gutenberg with our three core blocks, with additional blocks available in our optional add-ons."
+msgstr ""
+
+#: ../views/about.php:90
+msgid "Beaver builder modules"
+msgstr ""
+
+#: ../views/about.php:92
+msgid "Beaver Builder Modules"
+msgstr ""
+
+#: ../views/about.php:93
+msgid "Page builder plugins are increasingly common these days. At Pixel Jar, we love Beaver Builder. So as soon as we finalized Gutenberg support, we built some custom modules for Beaver Builder."
+msgstr ""
+
+#: ../views/about.php:97
+msgid "Divi modules"
+msgstr ""
+
+#: ../views/about.php:99
+msgid "Divi Modules"
+msgstr ""
+
+#: ../views/about.php:100
+msgid "The popularity of page builders has given rise to the Divi page builder by Elegant Themes. With a large community like this, we decided to build modules to support Divi directly!"
+msgstr ""
+
+#: ../views/about.php:104
+msgid "Elementor modules"
+msgstr ""
+
+#: ../views/about.php:106
+msgid "Elementor Modules"
+msgstr ""
+
+#: ../views/about.php:107
+msgid "Not to be outdone, Elementor offers it's own take on the page building space. We have been getting more of our customers asking for Elementor modules to make their building easier, so we have those too."
+msgstr ""
+
+#: ../views/about.php:111
+msgid "Page layout icon"
+msgstr ""
+
+#: ../views/about.php:113
+msgid "Widgets"
+msgstr ""
+
+#: ../views/about.php:114
+msgid "Most themes have widget areas. We provide three widgets with AdSanity Core, and more options through our optional add-ons."
+msgstr ""
+
+#: ../views/about.php:118
+msgid "An AdSanity shortcode within sample text"
+msgstr ""
+
+#: ../views/about.php:120
+msgid "Shortcodes"
+msgstr ""
+
+#: ../views/about.php:121
+msgid "Sometimes you want to include ads right within your content. AdSanity allows you to do that through easy to access shortcodes."
+msgstr ""
+
+#: ../views/about.php:125
+msgid "An AdSanity template tag in code"
+msgstr ""
+
+#: ../views/about.php:127
+msgid "Template Tags"
+msgstr ""
+
+#: ../views/about.php:128
+msgid "You can use our template tags to place ads anywhere on your site through the WordPress template structure."
+msgstr ""
+
+#: ../views/about.php:136
+msgid "Customization"
+msgstr ""
+
+#: ../views/about.php:143
+msgid "calendar icon"
+msgstr ""
+
+#: ../views/about.php:145
+msgid "Publishing Options"
+msgstr ""
+
+#: ../views/about.php:146
+msgid "You probably want to use your house ads forever, but you will also have advertisers that only want to advertise for a period of time. AdSanty can handle that."
+msgstr ""
+
+#: ../views/about.php:150
+msgid "bar graph icon"
+msgstr ""
+
+#: ../views/about.php:152
+msgid "Reporting"
+msgstr ""
+
+#: ../views/about.php:153
+msgid "We pull together some high level stats for you on the dashboard, but you also have control to slice and dice your stats however you want."
+msgstr ""
+
+#: ../views/about.php:157
+msgid "plug icon"
+msgstr ""
+
+#: ../views/about.php:160
+msgid "We built AdSanity to be extensible so that you can build specific integrations for your needs. We even have some integrations out already built for you!"
+msgstr ""
+
+#: ../views/about.php:170, ../views/changelog.php:115
+msgid "View Reports"
+msgstr ""
+
+#: ../views/about.php:171, ../views/changelog.php:116
+msgid "View Add-Ons"
+msgstr ""
+
+#: ../views/about.php:172, ../views/changelog.php:117
+msgid "Get Support"
+msgstr ""
+
+#: ../views/add-ons.php:30
+msgid "Available Add-Ons"
+msgstr ""
+
+#: ../views/add-ons.php:34
+msgid "AdSanity has a number of free add-ons that are available to every AdSanity Core license holder. In addition, we have several pro add-ons that are freely available for AdSanity Developer License holders and available for purchase for our other license holders. You can see details for each of our add-ons below."
+msgstr ""
+
+#: ../views/add-ons.php:149
+msgid "There was an error connecting to adsanityplugin.com. Please try your request later."
+msgstr ""
+
+#: ../views/add-ons.php:89
+msgid "Pro Add-Ons"
+msgstr ""
+
+#: ../views/add-ons.php:110
+msgid "More Info"
+msgstr ""
+
+#: ../views/add-ons.php:118
+msgid "Basic Add-Ons"
+msgstr ""
+
+#: ../views/add-ons.php:140
+msgid "Download"
+msgstr ""
+
+#: ../views/automatic-inclusion.php:68
+msgid "Automatically place ads in content?"
+msgstr ""
+
+#: ../views/automatic-inclusion.php:135
+msgid "Post Types: "
+msgstr ""
+
+#: ../views/automatic-inclusion.php:154
+msgid "Position: "
+msgstr ""
+
+#: ../views/automatic-inclusion.php:199
+msgid "Before"
+msgstr ""
+
+#: ../views/automatic-inclusion.php:202
+msgid "After"
+msgstr ""
+
+#: ../views/automatic-inclusion.php:223
+msgid "paragraphs(p)"
+msgstr ""
+
+#: ../views/automatic-inclusion.php:225
+msgid "paragraphs and lists (p, ul, ol)"
+msgstr ""
+
+#: ../views/automatic-inclusion.php:227
+msgid "blocks"
+msgstr ""
+
+#: ../views/automatic-inclusion.php:298
+msgid "Alignment: "
+msgstr ""
+
+#: ../views/automatic-inclusion.php:330
+msgid "Before using this feature, you must first create an Ad Group and assign ads to the group."
+msgstr ""
+
+#: ../views/automatic-inclusion.php:337
+msgid "Create an Ad Group Now."
+msgstr ""
+
+#: ../views/automatic-inclusion.php:350
+msgid "Ad Group: "
+msgstr ""
+
+#: ../views/automatic-inclusion.php:391, ../widgets/group-of-ads.php:273, ../widgets/random-ad.php:238, ../widgets/single-ad.php:247
+msgid "Max Width (px):"
+msgstr ""
+
+#: ../views/automatic-inclusion.php:415, ../widgets/random-ad.php:49
+msgid "Random Ad"
+msgstr ""
+
+#: ../views/automatic-inclusion.php:441
+msgid "Type"
+msgstr ""
+
+#: ../views/automatic-inclusion.php:460
+msgid "Add Rule"
+msgstr ""
+
+#: ../views/automatic-inclusion.php:461
+msgid "Remove Rule"
+msgstr ""
+
+#: ../views/changelog.php:31
+msgid "AdSanity 1.9 features Custom Elementor Modules, an updated reporting interface, WordPress 6.0 Full-Site Editing compatibility, developer features, and more!"
+msgstr ""
+
+#: ../views/changelog.php:35
+msgid "There are a lot of things that we are proud of in this release. Lots of new features and improvements as well as a few bugfixes. We hope this makes your advertising experience even better."
+msgstr ""
+
+#: ../views/changelog.php:44
+msgid "AdSanity: Simplified Ad Management for WordPress"
+msgstr ""
+
+#: ../views/changelog.php:52
+msgid "What's New?"
+msgstr ""
+
+#: ../views/changelog.php:58
+msgid "Custom Elementor Modules"
+msgstr ""
+
+#: ../views/changelog.php:59
+msgid "If you are an Elementor user, you have probably had to use our widgets or shortcodes in the past. Well, no more! We built some custom Elementor modules so you can use the tools that you already know and love."
+msgstr ""
+
+#: ../views/changelog.php:62, ../views/settings-general.php:23
+msgid "Reset Stats"
+msgstr ""
+
+#: ../views/changelog.php:63
+msgid "We've added a \"Reset\" button to delete (permanently) all internal statistics. This is a destructive operation and the data will no longer be retrievable."
+msgstr ""
+
+#: ../views/changelog.php:66
+msgid "Under-The-Hood Storage"
+msgstr ""
+
+#: ../views/changelog.php:67
+msgid "We completely rewrote our metadata storage methodology to allow for alternative statistic storage which will increase performance overall."
+msgstr ""
+
+#: ../views/changelog.php:70
+msgid "More Actions and Filters"
+msgstr ""
+
+#: ../views/changelog.php:71
+msgid "We added more developer oriented hooks to allow for further customization of the AdSanity platform."
+msgstr ""
+
+#: ../views/changelog.php:79
+msgid "Updated Features."
+msgstr ""
+
+#: ../views/changelog.php:85
+msgid "Reporting Engine"
+msgstr ""
+
+#: ../views/changelog.php:86
+msgid "More obvious visual indicators have been added while custom reports are loading."
+msgstr ""
+
+#: ../views/changelog.php:94
+msgid "Bugs Squashed."
+msgstr ""
+
+#: ../views/changelog.php:100
+msgid "Page Builders and Nested Loops"
+msgstr ""
+
+#: ../views/changelog.php:101
+msgid "Compatibility with page builders and nested WordPress loops has been improved across the board."
+msgstr ""
+
+#: ../views/changelog.php:104
+msgid "WordPress 6.0 compatibility"
+msgstr ""
+
+#: ../views/changelog.php:105
+msgid "WordPress 6.0 introduces the first iteration of the full-site editing experience. While it looks the same as the block editor, it has some subtle differences. We have updated the way our blocks work to handle this so you can put ads wherever you want in your theme."
+msgstr ""
+
+#: ../views/html5-upload.php:17
+msgid "Only files of type %s may be uploaded."
+msgstr ""
+
+#: ../views/html5-upload.php:21
+msgid "Oops! Something went wrong with the file upload."
+msgstr ""
+
+#: ../views/html5-upload.php:24
+msgid "%s File Upload"
+msgstr ""
+
+#: ../views/html5-upload.php:29
+msgid "%s ad zip file"
+msgstr ""
+
+#: ../views/html5-upload.php:33
+msgid "Upload Now"
+msgstr ""
+
+#: ../views/settings-add-ons.php:45, ../views/settings-general.php:19, ../views/settings-licenses.php:19
+msgid "Save Changes"
+msgstr ""
+
+#: ../views/settings-general.php:27
+msgid "Note: Clicking this buttton will delete the internal view and click data for all ads. This is a destructive, non-reversible action. We recommend you make a backup of your database before proceeding."
+msgstr ""
+
+#: ../views/settings-general.php:25
+msgid "Note: Clicking this buttton will delete the internal, not remote Google Analytics, view and click data for all ads. This is a destructive, non-reversible action. We recommend you make a backup of your database before proceeding."
+msgstr ""
+
+#: ../views/settings-general.php:29
+msgid "Reset All Stats"
+msgstr ""
+
+#: ../views/settings.php:39
+msgid "Settings not saved"
+msgstr ""
+
+#: ../views/settings.php:37
+msgid "Settings saved"
+msgstr ""
+
+#: ../views/settings.php:45
+msgid "General"
+msgstr ""
+
+#: ../views/settings.php:53
+msgid "Licenses"
+msgstr ""
+
+#: ../views/stats-custom.php:15, ../views/stats.php:23
+msgid "Custom Reports"
+msgstr ""
+
+#: ../views/stats-custom.php:17
+msgid "Choose from the options below to customize the results."
+msgstr ""
+
+#: ../views/stats-custom.php:25
+msgid "Start Date"
+msgstr ""
+
+#: ../views/stats-custom.php:34
+msgid "End Date"
+msgstr ""
+
+#: ../views/stats-custom.php:45
+msgid "Choose Ads to View"
+msgstr ""
+
+#: ../views/stats-custom.php:49
+msgid "Search Ads"
+msgstr ""
+
+#: ../views/stats-custom.php:54
+msgid "All"
+msgstr ""
+
+#: ../views/stats-custom.php:81
+msgid "Loading animation"
+msgstr ""
+
+#: ../views/stats-custom.php:84
+msgid "View Data"
+msgstr ""
+
+#: ../views/stats-custom.php:89
+msgid "Click Data"
+msgstr ""
+
+#: ../views/stats-custom.php:95
+msgid "Detailed Report"
+msgstr ""
+
+#: ../views/stats-custom.php:97
+msgid "Export CSV"
+msgstr ""
+
+#: ../views/stats-custom.php:103, ../views/stats-custom.php:121
+msgid "Ad Name"
+msgstr ""
+
+#: ../views/stats-custom.php:107, ../views/stats-custom.php:125, ../views/stats-dashboard-group-block.php:46, ../views/stats-dashboard-group-block.php:56, ../views/stats-dashboard.php:184, ../views/stats-dashboard.php:226
+msgid "CTR"
+msgstr ""
+
+#: ../views/stats-custom.php:132
+msgid "Make your selections above to see detailed data here."
+msgstr ""
+
+#: ../views/stats-dashboard.php:109
+msgid "All-Time Summary"
+msgstr ""
+
+#: ../views/stats-dashboard.php:113
+msgid "Total Views"
+msgstr ""
+
+#: ../views/stats-dashboard.php:114
+msgid "Total Clicks"
+msgstr ""
+
+#: ../views/stats-dashboard.php:115
+msgid "Total Click Through Rate"
+msgstr ""
+
+#: ../views/stats-dashboard.php:131
+msgid "All-Time Top 10 Clicks"
+msgstr ""
+
+#: ../views/stats-dashboard.php:162
+msgid "No clicks have been collected yet."
+msgstr ""
+
+#: ../views/stats-dashboard.php:177
+msgid "All-Time Top 10 Click Through Rate"
+msgstr ""
+
+#: ../views/stats-dashboard.php:217
+msgid "No views or clicks have been collected yet."
+msgstr ""
+
+#: ../views/stats.php:22
+msgid "Dashboard"
+msgstr ""
+
+#: ../views/support.php:30
+msgid "First-Class Support"
+msgstr ""
+
+#: ../views/support.php:34
+msgid "If you have any questions about using AdSanity you can access our <a href=\"%s\" target=\"_blank\">support site</a> day or night. If you're not able to find the answers you need you can always <a href=\"%s\" target=\"_blank\">submit a support request</a> to our support team and we'll help get you the solution you need."
+msgstr ""
+
+#: ../views/support.php:41
+msgid "View the %s <a href=\"%s\">about page</a>."
+msgstr ""
+
+#: ../views/support.php:52
+msgid "Screenshot of the AdSanity support site"
+msgstr ""
+
+#: ../views/support.php:59
+msgid "Caching Notice"
+msgstr ""
+
+#: ../views/support.php:61
+msgid "AdSanity works best when using object caching. If you or your host is using a static page caching system or plugin, like Varnish or WP Super Cache, you may see discrepancies with your internal tracking numbers. In this case, we recommend that you use our Google Analytics Tracking Integration add-on."
+msgstr ""
+
+#: ../views/tabs.php:20
+msgid "Ad Hosted On-Site"
+msgstr ""
+
+#: ../views/tabs.php:29
+msgid "External Ad Network"
+msgstr ""
+
+#: ../views/tabs.php:38
+msgid "Text Ad"
+msgstr ""
+
+#: ../widgets/group-of-ads.php:45
+msgid "Display a group of %s Ad units."
+msgstr ""
+
+#: ../widgets/group-of-ads.php:180, ../widgets/random-ad.php:171, ../widgets/single-ad.php:154
+msgid "Title:"
+msgstr ""
+
+#: ../widgets/group-of-ads.php:218, ../widgets/random-ad.php:207
+msgid "No ad groups found. Go %screate%s one."
+msgstr ""
+
+#: ../widgets/group-of-ads.php:233
+msgid "Number of ads to show:"
+msgstr ""
+
+#: ../widgets/group-of-ads.php:245
+msgid "Number of columns:"
+msgstr ""
+
+#: ../widgets/group-of-ads.php:280, ../widgets/random-ad.php:245
+msgid "Alignment:"
+msgstr ""
+
+#: ../widgets/random-ad.php:44
+msgid "Display a single random ad from an Ad Group."
+msgstr ""
+
+#: ../widgets/single-ad.php:31
+msgid "Display a single %s Ad unit."
+msgstr ""
+
+#: ../widgets/single-ad.php:36
+msgid "Single Ad"
+msgstr ""
+
+#: ../widgets/single-ad.php:214
+msgid "No ads found. Go %screate%s one."
+msgstr ""
+
+#: ../widgets/single-ad.php:165
+msgid "Search Ads:"
+msgstr ""
+
+#: ../widgets/single-ad.php:169
+msgid "search ads"
+msgstr ""

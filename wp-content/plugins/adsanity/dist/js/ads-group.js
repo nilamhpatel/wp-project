@@ -1,0 +1,1 @@
+jQuery(document).ready((function(n){var o=new Clipboard(".adsanity-clipboard");o.on("success",(function(n){alert("Copied to the clipboard."),n.clearSelection()})),o.on("error",(function(n){})),n(".adsanity-clipboard").on("click",(function(n){n.preventDefault()}))}));

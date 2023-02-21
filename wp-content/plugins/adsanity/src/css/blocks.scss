@@ -1,0 +1,200 @@
+@import 'variables';
+
+// Styles for Gutenberg blocks
+
+.wp-block[data-type*="adsanity/"] {
+
+	// Labels {
+	label {
+		display: block;
+		width: 100%;
+
+		> span {
+			display: block;
+			margin-bottom: 8px;
+			text-align: center;
+		}
+	}
+
+	// Paragraph tags
+	p {
+		margin-bottom: 8px;
+		text-align: center;
+	}
+
+	// Alignment helpers
+	&[data-align="left"]:not(.is-selected) .editor-block-list__block-edit {
+		margin-bottom: 0;
+		margin-right: 0;
+	}
+
+	&[data-align="right"]:not(.is-selected) .editor-block-list__block-edit {
+		margin-bottom: 0;
+		margin-left: 0;
+	}
+
+	&.is-selected {
+
+		&[data-align="left"],
+		&[data-align="right"] {
+
+			.editor-block-list__block-edit {
+				width: calc(100% + 4em);
+			}
+		}
+	}
+
+	// Style built-in Gutenberg components for our blocks
+	.editor-block-list__breadcrumb .components-toolbar {
+		background-color: $color_primary;
+		transform: translateY(-20px);
+	}
+
+	// Styles the Placeholder component on focus
+	.components-placeholder {
+		background-color: $color_primary_light;
+		padding: 40px 20px;
+
+		p {
+			font-size: 13px;
+			margin-bottom: 2px;
+		}
+	}
+
+	.components-placeholder__label {
+		font-size: 1.4rem;
+		line-height: 1;
+		margin-bottom: 10px;
+	}
+
+	.components-placeholder__fieldset > div {
+		width: 100%;
+	}
+
+	input[type="text"] {
+		box-shadow: none; // Gutenberg overrides react-select
+	}
+
+	// Separator
+	hr.adsanity-section-separator {
+		border-color: $color_primary;
+		border-width: 0.5px;
+		margin: 40px 37.5% 20px;
+		opacity: 0.4;
+		width: 25%;
+	}
+
+	// Add-ons warning
+	.adsanity-add-ons-warning {
+		margin: 12px 0 -8px;
+
+		p {
+			font-size: 11px;
+			line-height: 1.4;
+		}
+	}
+
+	// Alignment component
+	.adsanity-alignment {
+
+		.buttons {
+			display: flex;
+			justify-content: center;
+		}
+
+		.active-button {
+			box-shadow: inset 0 0 0 2px $color_primary;
+		}
+
+		> button {
+			height: auto;
+			padding: 0;
+		}
+	}
+
+	// Max width component
+	.adsanity-max-width-control {
+		text-align: center;
+
+		button.adsanity-tooltip-button {
+			border-radius: 50%;
+			height: 24px;
+			margin-left: 10px;
+			margin-top: 1px;
+			min-width: 24px;
+			padding: 2px;
+			width: 24px;
+
+			svg {
+				margin: 0;
+			}
+		}
+
+		.components-base-control label {
+			display: inline-block;
+			width: auto;
+		}
+	}
+
+	.ad-alignleft,
+	.ad-alignright,
+	.adsanity-alignleft,
+	.adsanity-alignright {
+		position: relative;
+		z-index: 20;
+	}
+
+	// Ad group numbers inputs
+	.ad-group-numbers {
+		align-items: flex-end;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+
+		label {
+			line-height: 1.4;
+			width: 48%;
+
+			input {
+				width: 100%;
+			}
+		}
+	}
+
+	.automatic-ads {
+
+		p {
+			font-size: 11px;
+
+			&.link {
+				margin-top: 0;
+			}
+		}
+	}
+
+	.adsanity-placeholder {
+
+		.adsanity-inner {
+			background-color: $color_primary_light;
+
+			p.title {
+				line-height: 20px;
+				margin: 0;
+				position: absolute;
+				text-align: center;
+				top: calc(50% - 10px);
+				width: 100%;
+			}
+
+			p.disclaimer {
+				bottom: 6px;
+				font-size: 10px;
+				font-style: italic;
+				margin: 0;
+				position: absolute;
+				text-align: center;
+				width: 100%;
+			}
+		}
+	}
+}

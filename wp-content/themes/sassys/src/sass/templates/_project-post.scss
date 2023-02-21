@@ -1,0 +1,193 @@
+.reno-project-post-container {
+  padding-bottom: 60px;
+
+  .reno-outer-project-content-container {
+    margin-top: -100px;
+
+    .reno-inner-project-content-container {
+      padding-bottom: 120px;
+      background: $white;
+      position: relative;
+      max-width: 1176px;
+      margin: 0 auto;
+      
+      .project-details-container {
+        display: flex;
+        padding: 60px 0 40px;
+        max-width: 970px;
+        margin: 0 auto;
+        border-bottom: 1px solid $light-grey;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        @media all and ( min-width: $screen-md ) {
+          flex-direction: row;
+        }
+
+        .data-container {
+          max-width: 670px;
+
+          .label {
+            font-family: $nunito;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: $dark-grey;
+            margin: 0;
+          }
+
+          .member-value {
+            font-family: $nunito;
+            font-weight: 700;
+            font-size: 25px;
+            margin: 0 0 10px;
+            line-height: 35px;
+            color: $blue;
+          }
+
+          .data-row {
+            display: flex;
+            flex-direction: column;
+            @media all and ( min-width: $screen-md ) {
+              flex-direction: row;
+            }
+
+            .data-column {
+              width: 140px;
+              padding-right: 30px;
+            }
+          
+            .data {
+              font-family: $nunito;
+              font-weight: 700;
+              font-size: 16px;
+              margin: 0 0 20px;
+              line-height: 24px;
+              color: $black;
+            }
+          }
+        }
+      }
+
+      .content-container {
+        font-family: $nunito;
+        padding: 60px 0;
+        max-width: 970px;
+        margin: 0 auto; 
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: $black;
+      }
+    }
+  }
+  
+  .reno-interested-bkgd-container {
+    width: 100%;
+    height: 736px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    background-size: cover;
+    background-position: center center;
+
+    .reno-interested-content-container {
+      background: rgba( 255, 255, 255, 0.93 );
+      max-width: 970px;
+      width: 100%;
+      margin: 0 30px;
+      text-align: center;
+      padding: 30px;
+      @media all and ( min-width: $screen-sm ) {
+        padding: 60px;
+      }
+
+      .content-container {
+        max-width: 660px;
+        margin: 0 auto;
+
+        p {
+          font-family: $nunito;
+          font-weight: 400;
+          max-width: 570px;
+          margin: 0 auto 30px;
+          font-size: 18px;
+          line-height: 27px;
+          color: $black;
+        }
+
+        .green-button {
+          font-family: $poppins;
+          background: $green;
+          border-radius: 25px;
+          padding: 12px 26px;
+          font-weight: 700;
+          display: inline-block;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+          color: $white;
+
+          &:active,
+          &:focus,
+          &:hover {
+            background: $light-green;
+          }
+        }
+      }
+    }
+  }
+
+  .reno-similiar-projects-container {
+    margin-bottom: 100px;
+
+    a {
+      background: $white;
+      display: block;
+      box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.15 );
+      text-decoration: none;
+      color: $black;
+      text-align: center;
+      transition: all .25s;
+
+      &:active,
+      &:focus,
+      &:hover {
+        box-shadow: 0px 0px 20px rgba( 0, 0, 0, 0.3 );
+      }
+
+      .image-container {
+        width: 100%;
+        height: 260px;
+        
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .title-container {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+
+        .similar-title {
+          font-family: $nunito;
+          font-weight: 700;
+          margin: 0;
+          font-size: 25px;
+          line-height: 29px;
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+
